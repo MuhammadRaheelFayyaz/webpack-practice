@@ -1,0 +1,27 @@
+{
+  "name": "webpack-pracitce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build:prod": "webpack src/js/app.js --output dist/bundle.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadRaheelFayyaz/webpack-practice.git"
+  },
+  "author": "\"Muhammad Raheel Fayyaz\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadRaheelFayyaz/webpack-practice/issues"
+  },
+  "homepage": "https://github.com/MuhammadRaheelFayyaz/webpack-practice#readme"
+}
